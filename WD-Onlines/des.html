@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: auto;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding-left: 20px;
+            padding-right: 20px;
+
+        }
+        .container-blue{
+            margin-top: 1%;
+            height: 80vh;
+            width: 30%;
+            /* background-color: blue; */
+
+        }
+        .container .box-red{
+            height: 70%;
+            width: 100%;
+            z-index: -1;
+            background-color: red;
+        }
+        .container .box-yellow{
+            height: 30%;
+            width: 90%;
+            z-index: 1;
+            margin-top: -23%;
+            margin-left: 5%;
+            background-color: chartreuse;
+        }
+         .box-top{
+            height: 50px;
+            width: 130px;
+            position: relative;
+            top: -3%;
+            left: 10%;
+            background-color: black;
+            
+        }
+        .box-top::after , .box-top::before{
+            position: absolute;
+            top: 0;
+            content: '';
+        }
+         .box-top::after { 
+           
+            left: -10.8px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 9.3px 10px;
+            border-color: transparent transparent black transparent;
+         }
+         .box-top::before{
+            width: 0;
+            right: -10.3px;
+            height: 0;
+            border-style: solid;
+            border-width: 9.3px 0 0 10px;
+            border-color: transparent transparent transparent black;
+         }
+    </style>
+</head>
+<body>
+      <div class="container">
+            <div class="container-blue">
+                 <div class="box-red">
+                       <div class="box-top"></div>
+                 </div>
+                 <div class="box-yellow"></div>
+             </div>
+
+             <div class="container-blue">
+                <div class="box-red">
+                      <div class="box-top"></div>
+                </div>
+                <div class="box-yellow"></div>
+            </div>
+
+            <div class="container-blue">
+                <div class="box-red">
+                      <div class="box-top"></div>
+                </div>
+                <div class="box-yellow"></div>
+            </div>
+
+            <div class="container-blue">
+                <div class="box-red">
+                      <div class="box-top"></div>
+                </div>
+                <div class="box-yellow"></div>
+            </div>
+
+            <div class="container-blue">
+                <div class="box-red">
+                      <div class="box-top"></div>
+                </div>
+                <div class="box-yellow"></div>
+            </div>
+
+            <div class="container-blue">
+                <div class="box-red">
+                      <div class="box-top"></div>
+                </div>
+                <div class="box-yellow"></div>
+            </div>
+
+            <div class="container-blue">
+                <div class="box-red">
+                      <div class="box-top"></div>
+                </div>
+                <div class="box-yellow"></div>
+            </div>
+
+            <div class="container-blue">
+                <div class="box-red">
+                      <div class="box-top"></div>
+                </div>
+                <div class="box-yellow"></div>
+            </div>
+  
+            <div class="container-blue">
+                <div class="box-red">
+                      <div class="box-top"></div>
+                </div>
+                <div class="box-yellow"></div>
+            </div>
+       </div>    
+</body>
+</html>

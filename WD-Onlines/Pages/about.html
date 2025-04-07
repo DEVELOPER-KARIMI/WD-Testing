@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Assets/bootstrap-icons/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- internal css -->
+    <style>
+        .container-main{
+            height: auto;
+            width: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .container-left{
+            height: 125vh;
+            width: 50vw;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+    
+        }
+        .container-blue{
+            height: 60vh;
+            width: 20vw;
+            align-items: center;
+            align-content: center;
+            color: white;
+            /* background-color: blue; */
+            margin-left: 5%;
+            background-position: center;
+            background-size: cover;
+        }
+        .box-red{
+            position: relative;
+            height: 90px;
+            width: 110px;
+            background-color: #F15D30;
+            left: -3%;
+            top: -10%;
+        }
+    
+        .box-red::after{
+                position: absolute;
+                left: -0.5%;
+                content: '';
+                top: -9%;
+                rotate: 90deg;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width:  8px 0 0 8px;
+                border-color: #C7390D transparent transparent transparent;
+        }
+        .container-right{
+            height: 85vh;
+            width: 45vw;
+            /* background-color: blueviolet; */
+            padding-top: 10%;
+            padding-left: 5%;
+        }
+        button{
+            height: 60px;
+            width: 160px;
+            background-color: #F15D30;
+            color: white;
+            border: none;
+            font-size: 15px;
+            border-radius: 5%;
+    
+        }
+ </style>    
+
+</head>
+<body>
+    <!-- Top-Info Start -->
+    <div class="top-info">
+        <div class="info">
+            <a href="https://wa.me/+971557675840">
+                <div><i class="bi bi-telephone"></i>
+                    <p>+971 55 767 5840</p>
+                </div>
+            </a>
+            <a href="mailto:Suppport@wdonlines.com
+            ">
+                <div><i class="bi bi-envelope"></i>
+                    <p>Suppport@wdonlines.com</p>
+                </div>
+            </a>
+            <a href="https://www.google.com/maps/place/Mostafawi+Building/@25.2577134,55.2973773,21z/data=!4m10!1m2!2m1!1sSharaf+DG+Metro+Station+Exit+01,+Mustafavi+Building!3m6!1s0x3e5f43005c9d542d:0xfeea0463d4620031!8m2!3d25.2577133!4d55.297659!15sCjNTaGFyYWYgREcgTWV0cm8gU3RhdGlvbiBFeGl0IDAxLCBNdXN0YWZhdmkgQnVpbGRpbmeSARFhcGFydG1lbnRfY29tcGxleOABAA!16s%2Fg%2F11vt75_h15?entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D
+            ">
+                <div><i class="bi bi-geo-alt"></i>
+                    <p>Sharaf DG Metro Station Exit 01, <br> Mustafavi Building 1st Floor Office No.105, <br>Dubai UAE.
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="logo">
+            <img src="../Images/logo-WDO.png" alt="">
+        </div>
+        <div class="search-bar">
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search...">
+                <i class="bi bi-search search-icon"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Whatsapp Section -->
+    <a href="https://wa.me/+971557675840" target="_blank">
+        <i class="bi bi-whatsapp bounce-effect" id="whats"></i>
+    </a>
+
+    <!-- Navbar Start -->
+    <div class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="destinations.html">Top Destinations</a>
+        <a href="visa.html">Visa</a>
+        <a href="hotels.html">Hotels</a>
+        <a href="packages.html">Packages</a>
+        <a href="blogs.html">Blogs</a>
+        <a href="contacts.html">Contacts</a>
+    </div>
+
+ 
+
+
+    <div class="container-main">
+        <!-- left container having cards -->
+    <div class="container-left">
+    <div class="container-blue" style="background-image: url(./services-1.jpg);">
+        <div class="box-red"></div>
+        <h4 style="font-family: sans-serif; font-size: 25px; margin-top: -5% ; margin-left: 10%; " >Activity</h4>
+        <p style="font-family: 'Times New Roman', Times, serif; font-size: 20px;
+        margin-left: 10%; ">A small river named Duden flows by their place and supplies it with the necessary</p>
+    </div>
+    <div class="container-blue" style="background-image: url(./services-2.jpg);">
+        <div class="box-red"></div>
+        <h4 style="font-family: sans-serif; font-size: 25px; margin-top: -5% ; margin-left: 10%; ">Activity</h4>
+        <p style="font-family: 'Times New Roman', Times, serif; font-size: 20px;
+        margin-left: 10%; ">A small river named Duden flows by their place and supplies it with the necessary</p>
+    </div>
+    <div class="container-blue" style="background-image: url(./services-3.jpg);">
+        <div class="box-red"></div>
+        <h4 style="font-family: sans-serif; font-size: 25px; margin-top: -5% ; margin-left: 10%; ">Activity</h4>
+        <p style="font-family: 'Times New Roman', Times, serif; font-size: 20px;
+        margin-left: 10%; ">A small river named Duden flows by their place and supplies it with the necessary</p>
+    </div>
+    <div class="container-blue" style="background-image: url(./services-4.jpg);">
+        <div class="box-red"></div>
+        <h4 style="font-family: sans-serif; font-size: 25px; margin-top: -5% ; margin-left: 10%; ">Activity</h4>
+        <p style="font-family: 'Times New Roman', Times, serif; font-size: 20px;
+        margin-left: 10%; ">A small river named Duden flows by their place and supplies it with the necessary</p>
+    </div>
+   
+    </div> 
+    <!-- right container having texts -->
+     <div class="container-right">
+        <h5 style="font-size: 25px; font-family:'Times New Roman', Times, serif; font-style: italic; color: #F15D30; font-weight: 100;">WELLCOME TO PACIFIC</h5>
+        <h3 style="font-family: sans-serif;font-size: 25px;">It's time to start your adventure</h3>
+        <p style="font-family: sans-serif;font-size: 15px;">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <button>Search Destination</button>
+
+     </div>
+    </div>
+
+      <!-- Footer Section Start -->
+      <footer class="footer">
+        <img src="../Images/Footer.jpg" alt="">
+        <div class="f-details">
+            <div class="f-contact">
+                <p class="f-p">Contact Us</p>
+                <a href="https://wa.me/+971557675840">
+                    <div><i class="bi bi-telephone"></i>
+                        <p>+971 55 767 5840</p>
+                    </div>
+                </a>
+                <a href="mailto:Suppport@wdonlines.com
+                ">
+                    <div><i class="bi bi-envelope"></i>
+                        <p>Suppport@wdonlines.com</p>
+                    </div>
+                </a>
+                <a href="https://www.google.com/maps/place/Mostafawi+Building/@25.2577134,55.2973773,21z/data=!4m10!1m2!2m1!1sSharaf+DG+Metro+Station+Exit+01,+Mustafavi+Building!3m6!1s0x3e5f43005c9d542d:0xfeea0463d4620031!8m2!3d25.2577133!4d55.297659!15sCjNTaGFyYWYgREcgTWV0cm8gU3RhdGlvbiBFeGl0IDAxLCBNdXN0YWZhdmkgQnVpbGRpbmeSARFhcGFydG1lbnRfY29tcGxleOABAA!16s%2Fg%2F11vt75_h15?entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D
+                ">
+                    <div><i class="bi bi-geo-alt"></i>
+                        <p>Sharaf DG Metro Station Exit 01, <br> Mustafavi Building 1st Floor Office No.105, Dubai
+                            UAE.
+                        </p>
+                    </div>
+                </a>
+                <div class="footer-section-icons  animate fade-up">
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-skype"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="f-logo">
+                <div class="image">
+                    <img src="../Images/logo-WDO.png" alt="">
+
+                </div>
+                <div class="text">Embark on unforgettable journeys with our curated travel experiences, providing
+                    seamless bookings,
+                    expert guides, and personalized itineraries for your perfect adventure
+                </div>
+
+            </div>
+            <div class="f-form">
+                <p class="f-p">Message Us</p>
+                <div class="contact-form-wrapper">
+                    <form>
+                        <div class="contact-form-row">
+                            <input type="text" class="contact-form-input" placeholder="Your Name" required>
+                            <input type="email" class="contact-form-input" placeholder="Your Email" required>
+                        </div>
+                        <input type="text" class="contact-form-input" placeholder="Subject" required>
+                        <textarea class="contact-form-textarea" placeholder="Message" rows="5" required></textarea>
+                        <button type="submit" class="contact-form-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="f-copyright">
+            <div class="footer-line-segmenet"></div>
+            <p class="footer-section-copyright">
+                Copyright 2025 © <b>World Destination Online</b> All Rights Reserved
+            </p>
+
+            <p class="footer-section-links ">
+                Designed by <a href="#">Muhammad Hanif</a> Distributed by <a href="#">Skardu Tech Tribe</a>
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- Whatsapp Section -->
+    <a href="https://wa.me/+971557675840" target="_blank">
+        <i class="bi bi-whatsapp bounce-effect" id="whats"></i>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top" onclick="scrollToTop()">
+        <i class="bi bi-arrow-up-short"></i>
+    </button>
+
+
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
